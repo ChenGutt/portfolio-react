@@ -3,17 +3,33 @@ import ".././index.css"
 
 function Navbar(props){
     return(
-        <div className="container-fluid">
-            <div className="row bg-light shadow p-4 align-items-center">
-                <div className="col-lg-3 logo">
-                    <h2><img src="images/chenLogo.png" alt="" style={{width:'150px'}} /></h2>
-                </div>
-                <nav className="col-lg-9 text-end">
-                    <a href="#">ABOUT</a>
-                    <a href="#">PORTFOLIO</a>
-                    <a href="#">CONTACT</a>
-                </nav>
-            </div>
+        <div classNameName="container-fluid">
+           
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div className="container-fluid d-flex">
+            <a className="navbar-brand" href="#"><img src="images/chenLogo.png" alt="" style={{width:'10em'}} /> </a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+            </button>
+
+    <div className="collapse navbar-collapse" id="navbarColor01">
+      <ul className="navbar-nav me-auto">
+        <li className="nav-item">
+          <a className="nav-link active" href="#">About
+            <span className="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Portfolio</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
  
         </div> 
     )

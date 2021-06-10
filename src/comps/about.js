@@ -3,8 +3,8 @@ import React from 'react';
 function About(props){
     return(
         <div className="container mt-5" style={{height:"50vh"}}>
-            <h2 className="text-center my-4">ABOUT ME</h2>
-                <hr />
+            <h1 className="text-center my-4">ABOUT ME</h1>
+             <hr className="w-50 mx-auto m-5" />
             <div className="row">
                 <div className="col-lg-3"></div>
                 <div className="col-lg-6 d-flex text-center ">

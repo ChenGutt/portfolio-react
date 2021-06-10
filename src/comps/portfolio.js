@@ -1,26 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ".././index.css"
+import Card from './card';
 
 function Portfolio(props){
+
+    let [proj_ar, setProj_ar] = useState([
+    {name: "iStay", description: "Angular, Node.js, MongoDB",img: "url('images/istayProj.png')"},
+    {name: "iStay", description: "Angular, Node.js, MongoDB", img: "url('images/istayProj.png')"},
+    {name: "Mardi Gras", description: "HTML, CSS, JS VANILLA", img: "url('images/mardiProj.png')"}
+  ])
     return(
-        <div className="container" style={{height:"40vh"}}>
+        <div className="container" style={{height:"auto"}}>
             <h2 className="text-center">PORTFOLIO</h2>
-            <hr />
-            <div className="col-lg-4">
-                <div class="card" style={{width: "18rem"}}>
-                    <div className="bg-card" style={{height:'30vh', backgroundImage: './public/images/istayProj.png'}}>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                
+            <hr className="w-50 mx-auto m-5" />
+           
+                    <Card proj_ar = {proj_ar} />
 
-
-            </div>
-            <div className="col-lg-4"></div>
-            <div className="col-lg-4"></div>
         </div> 
     )
 }
