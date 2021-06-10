@@ -1,32 +1,12 @@
-import logo from './logo.svg';
-import "bootswatch/dist/solar/bootstrap.min.css";
 import './App.css';
-import Navbar from './comps/navBar';
-import Header from './comps/header';
-import About from './comps/about';
-import Portfolio from './comps/portfolio';
-import Footer from './comps/footer';
-import { useState } from 'react';
-
-
+import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
   
 
   return (
-    <div>
-      <header>
-      <Navbar />
-      <Header />
-     
-      </header>
-      <main>
-      <About />
-      <Portfolio />
-      </main>
-      <footer>
-    <Footer />
-      </footer>
-    </div>
+    <h2>
+    Portfolio Project...
+    </h2>
   );
 }
 
