@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll"
-import logo from "../transLogo.png"
+import logo from "../logo.png"
 import "../App.css"
 
 //react font awesome

@@ -56,7 +56,7 @@ function Footer(props){
                        </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;
-                            {new Date().getFullYear()}&nbsp; CHEN GUTT | All Rights Reserved
+                            {new Date().getFullYear()}&nbsp; CHEN GUTT <br/> All Rights Reserved
                         </p>
                         </div>
                         <div className="col avatar-mobile">
