@@ -1,6 +1,7 @@
 import React from 'react';
 import iStay from "../images/istayProj.PNG";
 import mardiGras from "../images/mardiProj.PNG";
+import portfolio from "../images/portfolioProj.PNG";
 
 //FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,6 +13,49 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 function Portfolio(props){
+
+      const openPopupBoxPortfolio = () => {
+        const content = (
+            <>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <img src={portfolio} alt="istay angular project" className="portfolio-image-popupbox" />
+                    </div>
+                    <div className="col-lg-6">
+                        <p className="portfolio-text"> 
+                          This project was done with the help of a fantastic tutorial which I've learnt a lot from. The choice of making my portfolio site with React was purely in order to get 
+                          more familiar with the syntax and to get used to working with components. I've had lots of fun doing that. 
+                        </p>
+                        <b>Link to project: </b> <a className="hyper-link" onClick={()=>window.open("https://portfolio-chen-gutt.netlify.app//")}>https://portfolio-chen-gutt.netlify.app/</a>
+                        <br />
+                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/angular_project_bnb", "_blank")}>Portfolio project</a>
+                        
+                    </div>
+                </div>
+            </>
+        )
+      
+        PopupboxManager.open({content})
+            PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                text: "Portfolio app React",
+                },
+          },
+    });
+    }
+
+    // const popupboxConfigIstay = {
+    //        titleBar: {
+    //         enable: true,
+    //         text: "iStay Angular-Node.js-MongoDB project"  
+    //     },
+    //     fadeIn:true,
+    //     fadeInSpeed: 500
+
+    // }
+
 
     const openPopupBoxIstay = () => {
         const content = (
@@ -123,8 +167,8 @@ function Portfolio(props){
                     </div>
               
                 
-                    <div className="col-md-6 col-lg-4  portfolio-img-box">
-                        <img src={mardiGras} alt="mardi gras project" className="portfolio-img" />
+                    <div className="col-md-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
+                        <img src={portfolio} alt="mardi gras project" className="portfolio-img" />
                          <div className="overflow"></div>
                          <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>

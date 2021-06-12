@@ -47,8 +47,8 @@ function Footer(props){
                         <div className="row">
                         <div className="col">
                        <div className="d-flex justify-content-center">
-                           <FacebookShareButton url={"https://i-stay.netlify.app/"}>
-                               <FacebookIcon className="mx-3" size={36} quote={"FullStack Developer"} hashtag="#javascript"/>
+                           <FacebookShareButton url={"https://portfolio-chen-gutt.netlify.app/"}>
+                               <FacebookIcon className="mx-3" size={36} quote={"Please check out my new portfolio!"} hashtag="#openToWork"/>
                            </FacebookShareButton >
                            <LinkedinShareButton url={"https://www.linkedin.com/in/chen-gutt-8b5596209/"}>
                                 <LinkedinIcon className="mx-3" size={36}/>
