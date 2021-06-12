@@ -60,7 +60,7 @@ function Footer(props){
                         </p>
                         </div>
                         <div className="col avatar-mobile">
-                            <img src="images/avatar.png" alt="" className="avatar"/>
+                            <a href="https://www.linkedin.com/in/chen-gutt-8b5596209/"><img src="images/avatar.png" alt="my avatar" className="avatar"/></a> 
                             </div>
                             </div>
                     </div>
