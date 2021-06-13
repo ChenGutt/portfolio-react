@@ -579,7 +579,9 @@ textarea:focus+.line {
     align-items: center;
   }
 
-  .nav-mobile {
+  .rowOnMobile{
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 }

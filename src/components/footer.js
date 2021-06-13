@@ -25,7 +25,7 @@ function Footer(props){
                     </div>
                     
                     <div className="col-lg-3 col-md-2 col-sm-6 my-3 nav-mobile">
-                        <div className="row">
+                        <div className="row rowOnMobile">
                             <div className="col">
                                 <Link smooth={true} to="home" offset={-110} className="footer-nav">Home</Link>
                                 <br/>
