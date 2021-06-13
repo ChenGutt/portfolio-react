@@ -125,6 +125,7 @@ function Portfolio(props){
                         
                         </p>
                         <b>Link to project: </b> <a className="hyper-link" onClick={()=>window.open("https://my-mardigras-project.netlify.app/")}>https://my-mardigras-project.netlify.app</a>
+                        <br/>
                         <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/project_Mardi_Gras", "_blank")}>Mardi Gras github</a>
                     </div>
                 </div>
