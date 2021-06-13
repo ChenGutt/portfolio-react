@@ -333,32 +333,49 @@ nav ul li {
 /* change! */
 .portfolio-img-box {
   /* display: block; */
-  position: relative !important;
+  position: relative;
   /* padding: 0.5rem; */
   height: 14rem;
+  transition: all .15s ease-in-out,background-color .15s ease-in-out,border-color .15s
+   ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.portfolio-img-box:hover{
+  background:rgba(0, 0, 0, 0.871);
+}
 
 /*              OVERFLOW BOX               */
 
 .overflow {
   position: absolute;
-  opacity: 0;
+  opacity: 90%;
   /* background: var(--primary-black); */
   background: rgba(0, 0, 0, 0.433);
-  width: 94%;
+  width: 94.6%;
   height: 14rem;
   top: 0;
   /* border: 1px solid var(--primary-red); */
   cursor: pointer;
 }
 
-.overflow:hover {
+.overflow:active {
   opacity: 60%;
   transition: all .3s ease-in-out;
 }
 
 .portfolio-icon {
+  position: absolute;
+  opacity: 70%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto auto;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+/* .portfolio-icon {
   position: absolute;
   opacity: 0;
   top: 0;
@@ -368,7 +385,8 @@ nav ul li {
   margin: auto auto;
   color: var(--primary-orange);
   font-size: 1.5rem;
-}
+} */
+
 
 /* .overflow:hover+.portfolio-icon{
   opacity: 1;

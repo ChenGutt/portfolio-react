@@ -153,25 +153,26 @@ function Portfolio(props){
                 <div className="img-box-wrapper row justify-content-center">
     
                     <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxIstay}>
-                        
+                       
                             <img src={iStay} alt="istay angular project" className="portfolio-img" />
                             <div className="overflow"></div>
-                            {/* <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/> */}
-                     
+                            <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
+                            <button className="btn btn-info">ddd</button>
+                        
                     </div>
                 
              
                     <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxMardiGras}>
                         <img src={mardiGras} alt="mardi gras html/css project" className="portfolio-img" />
                          <div className="overflow"></div>
-                         {/* <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/> */}
+                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>
               
                 
                     <div className="col-md-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
                         <img src={portfolio} alt="mardi gras project" className="portfolio-img" />
                          <div className="overflow"></div>
-                         {/* <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/> */}
+                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>
                 </div>
             
