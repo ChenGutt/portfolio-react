@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import "./App.css"
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+// import 'font-awesome/css/font-awesome.min.css'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

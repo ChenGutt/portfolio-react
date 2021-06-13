@@ -365,11 +365,11 @@ nav ul li {
   opacity: 1;
 } */
 
-.portfolio-img-box:hover .portfolio-icon {
+/* .portfolio-img-box:hover .portfolio-icon {
   opacity: 70%;
   transition: all .3s ease-in-out;
   cursor: pointer;
-}
+} */
 
 /*              OVERFLOW BOX - POPUP               */
 
