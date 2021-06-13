@@ -54,7 +54,7 @@ function Footer(props){
                                 <LinkedinIcon className="mx-3" size={36} quote={"Please check out my new portfolio!"} hashtag="#openToWork"/>
                            </LinkedinShareButton>
                        </div>
-                        <p className="pt-3 text-center">
+                        <p className="copyright text-center">
                             Copyright&copy;
                             {new Date().getFullYear()}&nbsp; CHEN GUTT <br/> All Rights Reserved
                         </p>
