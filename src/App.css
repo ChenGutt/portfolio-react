@@ -330,6 +330,10 @@ nav ul li {
   height: 14rem;
 }
 
+.portfolio-img-box:hover {
+  opacity:0.4;
+}
+
 
 /*              OVERFLOW BOX               */
 
