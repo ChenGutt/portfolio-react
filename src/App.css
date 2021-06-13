@@ -362,7 +362,12 @@ nav ul li {
   color: var(--primary-orange);
   font-size: 3rem;
   cursor: pointer;
+  transition: all .3s ease-in-out;
 }
+
+.portfolio-icon:hover{
+  transform: scale(1.2);
+} 
 
 
 /* .portfolio-img-box:hover .portfolio-icon {
