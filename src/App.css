@@ -320,7 +320,7 @@ nav ul li {
 .portfolio-img {
   width: 100%;
   padding: 0.5rem 0.5rem;
-  border: 1px solid var(--primary-orange);
+  /* border: 1px solid var(--primary-orange); */
   height: 100%;
 }
 
@@ -332,9 +332,9 @@ nav ul li {
 }
 
 
-.portfolio-img-box:hover{
+/* .portfolio-img-box:hover{
   transform:scale(1.02);
-}
+} */
 
 
 
@@ -342,7 +342,7 @@ nav ul li {
 
 .overflow {
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.459); */
   width: 94.7%;
   height: 14rem;
   top: 0;
@@ -357,15 +357,18 @@ nav ul li {
 
 .portfolio-icon {
   position: absolute;
-  opacity: 70;
+  background: rgba(0, 0, 0, 0.759);
+  padding:8px;
+  opacity: 80%;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   margin: auto auto;
   color: var(--primary-orange);
-  font-size: 1.5rem;
+  font-size: 3rem;
   transition: all .3s ease-in-out;
+  cursor: pointer;
 }
 
 .portfolio-icon:hover{
