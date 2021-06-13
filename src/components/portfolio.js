@@ -162,14 +162,14 @@ function Portfolio(props){
                     <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxMardiGras}>
                         <img src={mardiGras} alt="mardi gras html/css project" className="portfolio-img" />
                          <div className="overflow"></div>
-                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
+                         {/* <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/> */}
                     </div>
               
                 
                     <div className="col-md-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
                         <img src={portfolio} alt="mardi gras project" className="portfolio-img" />
                          <div className="overflow"></div>
-                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
+                         {/* <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/> */}
                     </div>
                 </div>
             
