@@ -302,6 +302,12 @@ nav ul li {
   border-bottom: 0.125rem solid var(--primary-dark);
 }
 
+/* temporary needs to be removed  */
+.portfolio-img-box .box:hover {
+  background: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-dark);
+}
+
 
 
 /*              PORTFOLIO               */

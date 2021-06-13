@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Particles from "react-particles-js"
 import Header from './components/header';
 import Navbar from './components/navbar';
