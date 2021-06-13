@@ -328,6 +328,7 @@ nav ul li {
   position: relative;
   /* padding: 0.5rem; */
   height: 14rem;
+  background-color: rgba(0, 0, 0, 0.412);
 }
 
 
