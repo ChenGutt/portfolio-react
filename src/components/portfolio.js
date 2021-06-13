@@ -18,7 +18,7 @@ function Portfolio(props){
             <>
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={portfolio} alt="istay angular project" className="portfolio-image-popupbox" />
+                        <img src={portfolio} alt="portfolio react project" className="portfolio-image-popupbox" />
                     </div>
                     <div className="col-lg-6">
                         <p className="portfolio-text"> 
@@ -27,7 +27,7 @@ function Portfolio(props){
                         </p>
                         <b>Link to project: </b> <a className="hyper-link" onClick={()=>window.open("https://portfolio-chen-gutt.netlify.app//")}>https://portfolio-chen-gutt.netlify.app/</a>
                         <br />
-                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/angular_project_bnb", "_blank")}>Portfolio project</a>
+                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/portfolio-react", "_blank")}>Portfolio project</a>
                         
                     </div>
                 </div>
