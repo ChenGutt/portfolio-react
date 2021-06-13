@@ -328,7 +328,6 @@ nav ul li {
   position: relative;
   /* padding: 0.5rem; */
   height: 14rem;
-  background-color: rgba(0, 0, 0, 0.412);
 }
 
 
@@ -336,19 +335,19 @@ nav ul li {
 
 .overflow {
   position: absolute;
-  opacity: 0;
+  opacity: 50%;
   background: var(--primary-black);
-  width: 94.6%;
+  width: 94.7%;
   height: 14rem;
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
 }
 
-.portfolio-img-box:hover {
+/* .overflow:hover {
   opacity: 60%;
   transition: all .3s ease-in-out;
-}
+} */
 
 .portfolio-icon {
   position: absolute;
