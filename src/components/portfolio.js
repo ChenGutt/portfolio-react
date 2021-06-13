@@ -6,7 +6,6 @@ import portfolio from "../images/portfolioProj.PNG";
 //FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 //REACT POPUP box
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
