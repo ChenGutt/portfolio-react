@@ -154,7 +154,7 @@ function Portfolio(props){
     
                     <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxIstay}>
                         <img src={iStay} alt="istay angular project" className="portfolio-img" />
-                        <div className="overflow"></div>
+                        {/* <div className="overflow"></div> */}
                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>
                 
