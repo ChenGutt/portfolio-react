@@ -330,8 +330,10 @@ nav ul li {
   height: 100%;
 }
 
+/* change! */
 .portfolio-img-box {
-  position: relative;
+  /* display: block; */
+  position: relative !important;
   /* padding: 0.5rem; */
   height: 14rem;
 }
