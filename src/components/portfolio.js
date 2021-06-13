@@ -146,27 +146,26 @@ function Portfolio(props){
 
     return(
         <div id="portfolio" className="portfolio-wrapper">
-          
+          <h1 className="text-uppercase text-center py-5">portfolio</h1>
             <div className="container">
                
-             <h1 className="text-uppercase text-center py-5">portfolio</h1>
-                <div className="img-box-wrapper row justify-content-center">
+                <div className="img-box-wrapper row">
     
-                    <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxIstay}>
+                    <div className="col-md-6 col-sm-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxIstay}>
                         <img src={iStay} alt="istay angular project" className="portfolio-img" />
                         {/* <div className="overflow"></div> */}
                         <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>
                 
              
-                    <div className="col-md-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxMardiGras}>
+                    <div className="col-md-6 col-sm-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxMardiGras}>
                         <img src={mardiGras} alt="mardi gras html/css project" className="portfolio-img" />
                          <div className="overflow"></div>
                          <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>
                     </div>
               
                 
-                    <div className="col-md-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
+                    <div className="col-md-6 col-sm-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
                         <img src={portfolio} alt="mardi gras project" className="portfolio-img" />
                          <div className="overflow"></div>
                          <FontAwesomeIcon icon = {faSearchPlus} className="portfolio-icon"/>

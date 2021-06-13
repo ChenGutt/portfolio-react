@@ -333,10 +333,10 @@ nav ul li {
 
 /*              OVERFLOW BOX               */
 
-.overflow {
+/* .overflow {
   position: absolute;
   opacity: 0;
-  /* background: var(--primary-black); */
+  background: var(--primary-black);
   width: 94%;
   height: 14rem;
   top: 0;
@@ -347,7 +347,7 @@ nav ul li {
 .overflow:hover {
   opacity: 60%;
   transition: all .3s ease-in-out;
-}
+} */
 
 .portfolio-icon {
   position: absolute;
@@ -388,8 +388,6 @@ nav ul li {
   font-size: 0.8rem;
 }
 
-
-
 .hyper-link {
   cursor: pointer;
   color: var(--primary-orange);
@@ -401,6 +399,13 @@ nav ul li {
 
 .popupbox-wrapper {
   margin-top: 7rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .portfolio-img-box {
+   margin-bottom: 2rem;
+  }
 }
 
 /*             MEDIA QUERY POPUP          */
