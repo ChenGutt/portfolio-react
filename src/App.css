@@ -92,6 +92,7 @@ nav ul li {
   background-position: center;
   background-size: cover;
   filter: brightness(40%);
+  
   position: absolute;
   top: 0px;
   right: 0px;
