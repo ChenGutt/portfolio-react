@@ -512,7 +512,7 @@ textarea:focus+.line {
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: var(--primary-orange);
 }
 
 

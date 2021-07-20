@@ -25,8 +25,6 @@ function Portfolio(props) {
                             This project was done with the help of a fantastic tutorial which I've learnt a lot from. The choice of making my portfolio site with React was purely in order to get
                             more familiar with the syntax and to get used to working with components. I've had lots of fun doing that.
                         </p>
-                        <b>Link to project: </b> <a className="hyper-link" onClick={() => window.open("https://portfolio-chen-gutt.netlify.app//")}>https://portfolio-chen-gutt.netlify.app/</a>
-                        <br />
                         <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/portfolio-react", "_blank")}>Portfolio project</a>
 
                     </div>
