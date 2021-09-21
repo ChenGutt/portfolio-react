@@ -2,6 +2,7 @@ import React from 'react';
 import iStay from "../images/istayProj.PNG";
 import mardiGras from "../images/mardiProj.PNG";
 import portfolio from "../images/portfolioProj.PNG";
+import RockPaperScissors from "../images/RockPaperScissorsProj.PNG";
 
 //FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -64,7 +65,7 @@ function Portfolio(props) {
                         </p>
                         <b>Link to project: </b> <a className="hyper-link" onClick={() => window.open("https://i-stay.netlify.app/")}>https://i-stay.netlify.app</a>
                         <br />
-                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/i-stay-project", "_blank")}>iStay Angular + Node.js - github</a>
+                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/angular_project_bnb", "_blank")}>https://github.com/ChenGutt/angular_project_bnb</a>
 
                     </div>
                 </div>
@@ -91,6 +92,62 @@ function Portfolio(props) {
         fadeInSpeed: 500
 
     }
+
+
+
+
+
+
+    const openPopupBoxRockPaperScissors = () => {
+        const content = (
+            <>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <img src={RockPaperScissors} alt="Rock paper scissors project" className="portfolio-image-popupbox" />
+                    </div>
+                    <div className="col-lg-6">
+                        <p className="vue-text">
+                            A couple of weeks ago I have started self studying the Vue3 (Udemy and youtube) as I've noticed that this framework is gaining popularity.
+                            I am still busy getting to know and understand it better, but in the meantime, and for the practice, I've build this game.
+                            <br />
+                            I hope you enjoy playing it!
+
+
+                        </p>
+                        <b>Link to project: </b> <a className="hyper-link" onClick={() => window.open("https://rps-vue.netlify.app/")}>https://rps-vue.netlify.app/</a>
+                        <br />
+                        <b>on Github: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/ChenGutt/vue-game", "_blank")}>https://github.com/ChenGutt/vue-game</a>
+
+                    </div>
+                </div>
+            </>
+        )
+
+        PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Rock paper scissors project VUE",
+                },
+            },
+        });
+    }
+
+    const popupboxConfigRPS = {
+        titleBar: {
+            enable: true,
+            text: "Rock paper scissors project VUE"
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+
+    }
+
+
+
+
+
 
 
 
@@ -139,21 +196,27 @@ function Portfolio(props) {
 
                 <div className="img-box-wrapper row">
 
-                    <div className="col-md-6 col-sm-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxIstay}>
+                    <div className="col-md-6 col-sm-6 col-lg-3 portfolio-img-box" onClick={openPopupBoxIstay}>
                         <img src={iStay} alt="istay angular project" className="portfolio-img" />
                         {/* <div className="overflow"></div> */}
                         <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
                     </div>
 
 
-                    <div className="col-md-6 col-sm-6 col-lg-4 portfolio-img-box" onClick={openPopupBoxMardiGras}>
+                    <div className="col-md-6 col-sm-6 col-lg-3 portfolio-img-box" onClick={openPopupBoxMardiGras}>
                         <img src={mardiGras} alt="mardi gras html/css project" className="portfolio-img" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
                     </div>
 
 
-                    <div className="col-md-6 col-sm-6 col-lg-4  portfolio-img-box" onClick={openPopupBoxPortfolio}>
+                    <div className="col-md-6 col-sm-6 col-lg-3  portfolio-img-box" onClick={openPopupBoxRockPaperScissors}>
+                        <img src={RockPaperScissors} alt="mardi gras project" className="portfolio-img" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
+                    </div>
+
+                    <div className="col-md-6 col-sm-6 col-lg-3  portfolio-img-box" onClick={openPopupBoxPortfolio}>
                         <img src={portfolio} alt="mardi gras project" className="portfolio-img" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon icon={faSearchPlus} className="portfolio-icon" />
@@ -163,6 +226,7 @@ function Portfolio(props) {
             </div>
             <PopupboxContainer {...popupboxConfigIstay} />
             <PopupboxContainer {...popupboxConfigMardiGras} />
+            <PopupboxContainer {...popupboxConfigRPS} />
         </div>
     )
 }

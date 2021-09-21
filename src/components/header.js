@@ -13,7 +13,7 @@ function Header(props) {
                 <Typed className="typed-text" strings={["HTML/CSS", "JavaScript", "React", "Angular", "Node.js", "MongoDB"]} typeSpeed={40} backSpeed={60} loop />
                 <div className="d-flex">
                     <Link to="contact" offset={-110} className="btn-main">contact me</Link>
-                    <a href="https://easyupload.io/xx6e6n" className="btn-main">download cv</a>
+                    <a href="https://easyupload.io/nwkoih" className="btn-main">download cv</a>
                 </div>
 
             </div>
